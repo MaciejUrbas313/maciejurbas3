@@ -20,4 +20,4 @@ ng new frontend
 ```
 nest new backend --skip-git
 ```
-npm
+? npm
