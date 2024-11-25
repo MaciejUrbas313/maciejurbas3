@@ -1,0 +1,19 @@
+.main {
+  max-width: 1920px;
+  margin: auto;
+
+
+  background-color: #374962;
+}
+
+@media screen and (max-width: 776px) {
+  .main {
+    padding-top: clamp(min(10.50px), 5.00vw, max(38.80px));
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .main {
+    padding-top: clamp(min(15.52px), 2.00vw, max(38.40px));
+  }
+}
