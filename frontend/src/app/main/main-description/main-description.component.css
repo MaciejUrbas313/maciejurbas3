@@ -1,0 +1,79 @@
+.main-description {
+  display: flex;
+}
+
+@media screen and (max-width: 776px) {
+  .main-description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 6vw;
+  }
+
+  .main-description_PortraitFoto {
+    width: clamp(min(126.00px), 60.00vw, max(465.60px));
+    height: clamp(min(157.50px), 75.00vw, max(582.00px));
+
+    z-index: 1;
+  }
+
+  .main-description_Text {
+    width: clamp(min(158.55px), 75.50vw, max(585.88px));
+
+    padding: 12vw 6vw 6vw;
+
+    position: relative;
+    bottom: 9vw;
+
+    font-size: clamp(min(14.70px), 7.00vw, max(54.32px));
+
+    background-color: #657C92;
+    border-radius: clamp(min(10.5px), 5.00vw, max(38.80px));
+  }
+
+  .main-description_TextHighlight {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .main-description {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2.4vw;
+  }
+
+  .main-description_PortraitFoto {
+    width: clamp(min(97.00px), 12.50vw, max(240.00px));
+    height: clamp(min(121.25px), 15.63vw, max(300.00px));
+
+    z-index: 1;
+  }
+
+  .main-description_Text {
+    width: clamp(min(435.69px), 56.15vw, max(1078.00px));
+
+    padding: 1.2vw 2vw 1.22vw 6vw;
+
+    position: relative;
+    right: 5vw;
+
+    font-size: clamp(min(16.97px), 2.19vw, max(42.00px));
+
+    background-color: #657C92;
+    border-radius: clamp(min(12.13px), 1.56vw, max(30.00px));
+  }
+
+  .main-description_TextHighlight {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+  }
+}
