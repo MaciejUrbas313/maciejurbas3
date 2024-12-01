@@ -1,0 +1,11 @@
+.main-technology_Helper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main-technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
