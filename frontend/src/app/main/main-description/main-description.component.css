@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
 
-    padding-top: 2.4vw;
+    padding-top: clamp(min(18.62px), 2.40vw, max(46.08px));
   }
 
   .main-description_PortraitFoto {
@@ -59,10 +59,10 @@
   .main-description_Text {
     width: clamp(min(435.69px), 56.15vw, max(1078.00px));
 
-    padding: 1.2vw 2vw 1.22vw 6vw;
+    padding: clamp(min(9.31px), 1.20vw, max(23.04px)) clamp(min(15.52px), 2.00vw, max(38.40px)) clamp(min(9.47px), 1.22vw, max(23.42px)) clamp(min(46.56px), 6.00vw, max(115.20px));
 
     position: relative;
-    right: 5vw;
+    right: clamp(min(38.80px), 5.00vw, max(96.00px));
 
     font-size: clamp(min(16.97px), 2.19vw, max(42.00px));
 
