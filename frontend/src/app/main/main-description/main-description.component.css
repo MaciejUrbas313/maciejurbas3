@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
 
-    padding-top: clamp(min(18.62px), 2.40vw, max(46.08px));
+    padding-top: clamp(min(22.50px), 2.90vw, max(55.68px));
   }
 
   .main-description_PortraitFoto {
