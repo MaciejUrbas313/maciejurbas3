@@ -1,4 +1,4 @@
-.main-technology_Helper {
+.main-technology_helper {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -8,4 +8,141 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main-technology_firstRow {
+  display: flex;
+}
+.main-technology_secondRow {
+  display: flex;
+}
+.main-technology_secondRowItems {
+  display: flex;
+}
+.main-technology_thirdRow {
+  display: flex;
+}
+
+.main-technology_button {
+  background-color: #374962;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+@media screen and (max-width: 776px) {
+  .main-technology_helper {
+    flex-direction: column;
+  }
+  .main-technology_pierdolnikDoOzdoby {
+    display: none;
+  }
+  .main-technology_firstRow_python {
+    display: none;
+  }
+
+  .main-technology_title {
+    margin-top: 0;
+    text-align: center;
+    font-size: clamp(min(15.75px), 7.50vw, max(58.20px));
+  }
+
+  .main-technology_firstRow {
+    gap: 9vw;
+  }
+
+  .main-technology_secondRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-technology_secondRowItems {
+    gap: 9vw;
+    margin-top: 4vw;
+  }
+  .main-technology_thirdRow {
+    gap: 9vw;
+    margin-top: 4vw;
+  }
+
+  .main-technology_svg {
+    width: clamp(min(28.00px), 13.33vw, max(103.47px));
+    height: clamp(min(28.00px), 13.33vw, max(103.47px));
+  }
+
+  .main-technology_button {
+    width: clamp(min(168.00px), 80.00vw, max(620.80px));
+    height: clamp(min(35.00px), 16.67vw, max(129.33px));
+
+    margin-top: 8vw;
+
+    border-radius: clamp(min(8.75px), 4.17vw, max(32.33px));
+    border: solid clamp(min(3.50px), 1.67vw, max(12.93px)) #657C92;
+
+    font-size: clamp(min(18.20px), 8.67vw, max(67.25px));
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .main-technology {
+    margin-top: clamp(min(9.31px), 1.20vw, max(23.04px));
+  }
+  .main-technology_helper {
+    display: block;
+    position: relative;
+  }
+
+  .main-technology_pierdolnikDoOzdoby {
+    display: block;
+
+    position: absolute;
+    top: clamp(min(43.46px), 5.60vw, max(107.52px));
+    right:  clamp(min(616.14px), 79.40vw, max(1524.48px));
+
+    width: clamp(min(242.83px), 31.29vw, max(600.82px));
+    height: clamp(min(266.11px), 34.29vw, max(658.42px));
+  }
+
+  .main-technology_title {
+    text-align: center;
+    font-size: clamp(min(17.78px), 2.29vw, max(44.00px));
+  }
+
+  .main-technology_firstRow {
+    gap: clamp(min(23.28px), 3.00vw, max(57.60px));
+  }
+
+  .main-technology_secondRow {
+    gap: clamp(min(23.28px), 3.00vw, max(57.60px));
+    margin-top: clamp(min(9.31px), 1.20vw, max(23.04px));
+  }
+  .main-technology_secondRowItems {
+    gap: clamp(min(23.28px), 3.00vw, max(57.60px));
+  }
+  .main-technology_thirdRow {
+    gap: clamp(min(23.28px), 3.00vw, max(57.60px));
+  }
+  .main-technology_secondRow_python {
+    display: none;
+  }
+
+  .main-technology_svg {
+    width: clamp(min(32.33px), 4.17vw, max(80.00px));
+    height: clamp(min(32.33px), 4.17vw, max(80.00px));
+  }
+
+  .main-technology_button {
+    width: clamp(min(194.00px), 25.00vw, max(480.00px));
+    height: clamp(min(40.42px), 5.21vw, max(100.00px));
+
+    margin-top: clamp(min(23.28px), 3.00vw, max(57.60px));
+
+    font-size: clamp(min(21.02px), 2.71vw, max(52.00px));
+
+    border: solid clamp(min(4.04px), 0.52vw, max(10.00px)) #657C92;
+    border-radius: clamp(min(10.10px), 1.30vw, max(25.00px));
+  }
 }
