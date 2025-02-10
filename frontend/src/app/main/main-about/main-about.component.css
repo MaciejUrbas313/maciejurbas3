@@ -1,0 +1,120 @@
+.main-about {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+@media screen and (max-width: 776px) {
+  .main-about {
+    margin-top: 16vw;
+  }
+
+  .main-about-fewWords {
+    display: block;
+    margin: 0;
+
+    width: clamp(min(150.94px), 71.88vw, max(557.75px));
+    height: clamp(min(28.22px), 13.44vw, max(104.27px));
+
+    background-color: #657C92;
+    border-radius: 4.17vw 4.17vw 0 0;
+
+    text-align: center;
+    align-content: center;
+    font-size: clamp(min(15.75px), 7.50vw, max(58.20px));
+  }
+
+  .main-about-contentSmall {
+    display: block;
+    margin: 0;
+
+    justify-content: center;
+    align-content: center;
+
+    width: clamp(min(183.75px), 75.50vw, max(679.00px));
+    height: clamp(min(297.94px), 141.88vw, max(1100.95px));
+    padding: 0 6vw;
+
+    background-color: #58677B;
+    border-radius: clamp(min(15.75px), 7.50vw, max(58.20px));
+
+    font-size: clamp(min(13.13px), 6.25vw, max(48.50px));
+  }
+  .main-about-contentBig {
+    display: none;
+  }
+
+  .main-about-chance {
+    display: block;
+    margin: 0;
+
+    width: clamp(min(150.94px), 71.88vw, max(557.75px));
+    height: clamp(min(34.78px), 16.56vw, max(128.53px));
+
+    background-color: #4B7D99;
+    border-radius: 0 0 4.17vw 4.17vw;
+
+    text-align: center;
+    align-content: center;
+    font-size: clamp(min(13.13px), 6.25vw, max(48.50px));
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .main-about {
+    margin-top: clamp(min(46.56px), 6.00vw, max(115.20px));
+  }
+
+  .main-about-fewWords {
+    display: block;
+    margin: 0;
+    margin-left: clamp(min(111.74px), 14.40vw, max(276.48px));
+
+    width: clamp(min(282.92px), 36.46vw, max(700.00px));
+    height: clamp(min(40.42px), 5.21vw, max(100.00px));
+
+    background-color: #657C92;
+    border-radius: clamp(min(10.10px), 1.30vw, max(25.00px)) clamp(min(10.10px), 1.30vw, max(25.00px)) 0 0;
+
+    text-align: center;
+    align-content: center;
+    font-size: clamp(min(27.48px), 3.54vw, max(68.00px));
+  }
+
+  .main-about-contentSmall {
+    display: none;
+  }
+  .main-about-contentBig {
+    display: block;
+    margin: 0;
+
+    justify-content: center;
+    align-content: center;
+
+    width: clamp(min(435.69px), 50.15vw, max(1078.00px));
+    height: clamp(min(177.83px), 22.92vw, max(440.00px));
+    padding: 0 clamp(min(23.28px), 3.00vw, max(57.60px));
+
+    background-color: #58677B;
+    border-radius: clamp(min(18.19px), 2.34vw, max(45.00px));
+
+    font-size: clamp(min(16.6px), 1.98vw, max(38.00px));
+  }
+
+  .main-about-chance {
+    display: block;
+    margin: 0;
+    margin-right: clamp(min(111.74px), 14.40vw, max(276.48px));
+
+    width: clamp(min(282.92px), 36.46vw, max(700.00px));
+    height: clamp(min(40.42px), 5.21vw, max(100.00px));
+
+    background-color: #4B7D99;
+    border-radius: 0 0 clamp(min(10.10px), 1.30vw, max(25.00px)) clamp(min(10.10px), 1.30vw, max(25.00px));
+
+    text-align: center;
+    align-content: center;
+    font-size: clamp(min(21.02px), 2.71vw, max(52.00px));
+  }
+}
